@@ -1,0 +1,12 @@
+# OS / editor cruft
+.DS_Store
+*.swp
+*~
+
+# Ruby
+*.gem
+.bundle/
+vendor/bundle/
+
+# Node (only if you later add JS build tooling)
+node_modules/

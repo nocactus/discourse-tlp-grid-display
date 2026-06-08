@@ -1,0 +1,10 @@
+max_visible_images:
+  type: integer
+  default: 4
+  min: 2
+  max: 6
+min_images_for_grid:
+  type: integer
+  default: 2
+  min: 2
+  max: 6

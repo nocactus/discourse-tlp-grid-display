@@ -1,0 +1,6 @@
+en:
+  theme_metadata:
+    description: "Renders the cached first-post images (from the discourse-tlp-grid-images plugin) as a grid with a +N overlay in the topic list."
+    settings:
+      max_visible_images: "How many images to show in the grid before collapsing the rest into a +N overlay."
+      min_images_for_grid: "Only render the grid when a topic has at least this many images; otherwise the theme's normal single thumbnail is left alone."

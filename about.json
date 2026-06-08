@@ -1,0 +1,7 @@
+{
+  "name": "TLP Grid Display",
+  "component": true,
+  "authors": "Timo Roosendaal",
+  "about_url": "https://github.com/nocactus/discourse-tlp-grid-display",
+  "license_url": "https://github.com/nocactus/discourse-tlp-grid-display/blob/main/LICENSE"
+}
