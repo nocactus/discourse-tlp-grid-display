@@ -11,6 +11,7 @@ import { apiInitializer } from "discourse/lib/api";
 export default apiInitializer("0.11.1", (api) => {
   const maxVisible = parseInt(settings.max_visible_images, 10) || 4;
   const minImages = parseInt(settings.min_images_for_grid, 10) || 2;
+  const aspectRatio = settings.cell_aspect_ratio || "1 / 1";
 
   // Build a Map of topicId -> topic model from the current list.
   // The list model lives on the discovery topics controller. If your build
@@ -57,6 +58,7 @@ export default apiInitializer("0.11.1", (api) => {
     });
 
     grid.style.setProperty("--tlp-cols", Math.min(visible.length, 2));
+    grid.style.setProperty("--tlp-aspect", aspectRatio);
     return grid;
   }
 

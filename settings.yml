@@ -8,3 +8,13 @@ min_images_for_grid:
   default: 2
   min: 2
   max: 6
+cell_aspect_ratio:
+  type: enum
+  default: "1 / 1"
+  choices:
+    - "1 / 1"
+    - "4 / 3"
+    - "3 / 2"
+    - "16 / 9"
+    - "3 / 4"
+    - "2 / 3"

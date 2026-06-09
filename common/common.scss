@@ -1,6 +1,6 @@
 // TLP Grid Display — topic-list image grid with +N overlay.
 // Scoped to .topic-image so it only touches the block FKB Pro renders the
-// single thumbnail in. Tune --tlp-max-width to match your list column width.
+// single thumbnail in.
 
 .topic-image .tlp-grid {
   --tlp-gap: 3px;
@@ -17,7 +17,7 @@
 
 .tlp-grid__cell {
   position: relative;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: var(--tlp-aspect, 1 / 1);
   overflow: hidden;
   border-radius: var(--tlp-radius);
 
