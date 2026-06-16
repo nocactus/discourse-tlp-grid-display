@@ -100,7 +100,7 @@ export default apiInitializer("0.11.1", (api) => {
       body.dataset.tlpObserved = "1";
       new MutationObserver(scheduleDecorate).observe(body, {
         childList: true,
-        subtree: true,
+        subtree: false,
       });
     }
   });
