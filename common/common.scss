@@ -13,6 +13,9 @@
   // instead of a fixed max-width, so the grid matches the single-image
   // rendering and stays aligned.
   width: 100%;
+  // Grid images are decorative in the list; let FKB Pro's like button receive
+  // clicks through the grid instead of being blocked by it.
+  pointer-events: none;
 }
 
 .tlp-grid__cell {
