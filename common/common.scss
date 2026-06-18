@@ -38,6 +38,12 @@
   }
 }
 
+// Verberg de gebruikersnaam wanneer de volledige naam getoond wordt (zie full-name-posts.js).
+// Discourse voegt .has-full-name toe aan .names wanneer nameFirst true is.
+.topic-post .names.has-full-name .username {
+  display: none;
+}
+
 .tlp-grid__more {
   position: absolute;
   inset: 0;
